@@ -1,1 +1,1 @@
-# Thor-s-Hammer
+# ThorHammer
