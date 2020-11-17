@@ -1,0 +1,14 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "minecraft:hammer",
+      "category": "Equipment"
+    },
+
+    "components": {
+      "minecraft:icon": "hammer",
+      "minecraft:render_offsets": "tools"
+    }
+  }
+}

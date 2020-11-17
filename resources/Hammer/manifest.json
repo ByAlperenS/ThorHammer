@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "ThorHammer",
+        "name": "ThorHammer Resource Pack",
+        "uuid": "2cc1e04e-b0f9-442c-b4aa-a26712740dbd",
+        "version": [0, 0, 1],
+        "min_engine_version": [ 1, 14, 0 ]
+    },
+    "modules": [
+        {
+            "description": "ThorHammer",
+            "type": "resources",
+            "uuid": "4d696b78-2598-466d-98ab-0d9dfda336c0",
+            "version": [0, 0, 1]
+        }
+    ]
+}
