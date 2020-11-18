@@ -2,5 +2,5 @@
 
 **Item Information:**
 
-***ID: 11111***
-***NAME: Thor's Hammer***
+- ***ID: 11111***
+- ***NAME: Thor's Hammer***
