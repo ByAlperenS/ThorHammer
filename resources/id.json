@@ -1,3 +1,16 @@
 {
-  "minecraft:hammer": 11111
+  "required_item_list" : {
+    "minecraft:hammer":{
+      "runtime_id": 11111,
+      "component_based":false
+    }
+  },
+  "r16_to_current_item_map": {
+    "simple" : {
+      "minecraft:hammer": "minecraft:custom_hammer"
+    }
+  },
+  "item_id_map": {
+    "minecraft:hammer": 11111
+  }
 }
