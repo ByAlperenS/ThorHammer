@@ -15,8 +15,6 @@ use pocketmine\nbt\tag\{CompoundTag, ListTag, DoubleTag, FloatTag};
 use ThorHammer\Item\Hammer;
 use ThorHammer\ThorHammer;
 
-use const pocketmine\RESOURCE_PATH;
-
 class EventListener implements Listener{
 
     /** @var ThorHammer */
@@ -32,9 +30,7 @@ class EventListener implements Listener{
     public function onPacket(DataPacketSendEvent $event){
         $packet = $event->getPacket();
         if ($packet instanceof StartGamePacket) {
-            $old = json_decode(file_get_contents(RESOURCE_PATH . '/vanilla/item_id_map.json'), true);
-            $add = json_decode(file_get_contents($this->plugin->getDataFolder()."id.json"), true);
-            $packet->itemTable = array_merge($old, $add);
+            $packet->itemTable = Hammer::$entries;
         }
     }
 
@@ -44,7 +40,7 @@ class EventListener implements Listener{
         $item = $e->getItem();
         $block = $e->getBlock();
 
-        if ($item->getId() == Hammer::HAMMER_ID){
+        if ($item->getId() == Hammer::$id){
             if ($action == PlayerInteractEvent::RIGHT_CLICK_BLOCK){
                 $pk = new AddActorPacket();
                 $pk->type = "minecraft:lightning_bolt";
