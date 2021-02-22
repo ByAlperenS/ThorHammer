@@ -13,14 +13,14 @@ use pocketmine\Server;
 use pocketmine\math\Vector3;
 use pocketmine\nbt\tag\{CompoundTag, ListTag, DoubleTag, FloatTag};
 use ByAlperenS\ThorHammer\Item\Hammer;
-use ByAlperenS\ThorHammer\ThorHammer;
+use ByAlperenS\ThorHammer\Main;
 
 class EventListener implements Listener{
 
-    /** @var ThorHammer */
+    /** @var Main */
     private $plugin;
 
-    public function __construct(ThorHammer $plugin){
+    public function __construct(Main $plugin){
         $this->plugin = $plugin;
     }
 

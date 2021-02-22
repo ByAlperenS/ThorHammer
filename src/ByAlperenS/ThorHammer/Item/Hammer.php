@@ -4,7 +4,7 @@ namespace ByAlperenS\ThorHammer\Item;
 
 use pocketmine\network\mcpe\convert\ItemTypeDictionary;
 use pocketmine\network\mcpe\protocol\types\ItemTypeEntry;
-use ByAlperenS\ThorHammer\ThorHammer;
+use ByAlperenS\ThorHammer\Main;
 use const pocketmine\RESOURCE_PATH;
 
 class Hammer {
@@ -21,7 +21,7 @@ class Hammer {
     public static $simpleNetToCoreMapping = [];
     public static $simpleCoreToNetMapping = [];
 
-    public static function init(ThorHammer $plugin){
+    public static function init(Main $plugin){
         $file = json_decode(file_get_contents($plugin->getDataFolder() . "id.json"), true);
         $data = file_get_contents(RESOURCE_PATH . '/vanilla/r16_to_current_item_map.json');
         $json = json_decode($data, true);
