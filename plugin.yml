@@ -1,5 +1,5 @@
-name: ThorHammer
-main: ByAlperenS\ThorHammer\ThorHammer
+name: Main
+main: ByAlperenS\ThorHammer\Main
 api: 3.9.4
 author: ByAlperenS
 version: 1.0
