@@ -1,5 +1,7 @@
 # ThorHammer
 
+<a href="https://poggit.pmmp.io/p/ThorHammer"><img src="https://poggit.pmmp.io/shield.state/ThorHammer"></a>
+
 **Item Information:**
 
 - ***ID: 11111***
