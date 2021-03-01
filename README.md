@@ -1,6 +1,6 @@
 # ThorHammer
 
-<a href="https://poggit.pmmp.io/p/ThorHammer"><img src="https://poggit.pmmp.io/shield.state/ThorHammer"></a>
+<a href="https://poggit.pmmp.io/p/ThorHammer"><img src="https://poggit.pmmp.io/shield.state/ThorHammer"></a> <a href="https://poggit.pmmp.io/p/ThorHammer"><img src="https://poggit.pmmp.io/shield.api/ThorHammer"></a> <a href="https://poggit.pmmp.io/p/ThorHammer"><img src="https://poggit.pmmp.io/shield.dl.total/ThorHammer"></a> <a href="https://poggit.pmmp.io/p/ThorHammer"><img src="https://poggit.pmmp.io/shield.dl/ThorHammer"></a>
 
 **Item Information:**
 
